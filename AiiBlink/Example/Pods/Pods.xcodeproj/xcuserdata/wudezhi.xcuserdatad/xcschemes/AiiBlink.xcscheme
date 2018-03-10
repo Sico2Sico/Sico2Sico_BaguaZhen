@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '2B3239910CD16EE7DD07E238924B525B'
+               BlueprintIdentifier = 'A1BC3E300F3CBCFED8E104AFD2943EF0'
                BlueprintName = 'AiiBlink'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'AiiBlink.framework'>

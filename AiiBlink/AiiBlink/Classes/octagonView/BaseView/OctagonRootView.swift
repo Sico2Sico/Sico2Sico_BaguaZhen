@@ -10,10 +10,10 @@ import UIKit
 public class OctagonRootView: OctagonView {
 
     ///  八个梯形layer
-    var  trapezoidLayers :[CAShapeLayer] = []
+    public var  trapezoidLayers :[CAShapeLayer] = []
 
     ///  八个按钮
-    var  btns:[UIButton] = []
+    public var  btns:[UIButton] = []
 
 
     ///  大圆的路径点集

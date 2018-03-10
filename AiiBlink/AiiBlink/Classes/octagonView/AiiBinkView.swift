@@ -7,16 +7,8 @@
 
 import UIKit
 
-public extension Bundle {
-    public static func blinkClass() -> Bundle{
-        return Bundle(for:AiiBlinkClass.self)
-    }
+class AiiBinkView: UIView {
 
-    @objc public class func blinkClassResourceBundle() -> Bundle{
-        let uiBundle = self.blinkClass()
-        let url = uiBundle.url(forResource:"AiiBlink",withExtension: "bundle")!
-        return Bundle(url:url)!
-    }
+
+
 }
-
-private class AiiBlinkClass {}

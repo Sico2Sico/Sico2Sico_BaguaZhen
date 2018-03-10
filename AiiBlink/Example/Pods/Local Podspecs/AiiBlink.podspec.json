@@ -24,5 +24,10 @@
       "AiiBlink/Assets/**/*.xcassets",
       "AiiBlink/Assets/**/*.json"
     ]
+  },
+  "dependencies": {
+    "ReactiveCocoa": [
+
+    ]
   }
 }
