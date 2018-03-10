@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'AiiBlink_Example' do
+  pod 'AiiBlink', :path => '../'
+end

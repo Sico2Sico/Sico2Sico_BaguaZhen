@@ -1,0 +1,16 @@
+PODS:
+  - AiiBlink (0.1.0)
+
+DEPENDENCIES:
+  - AiiBlink (from `../`)
+
+EXTERNAL SOURCES:
+  AiiBlink:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AiiBlink: 7cc2e20cd56ed223c992a48c86bcc4f513570022
+
+PODFILE CHECKSUM: d0b27a2df191fdcf147f95d41b9a34dd5980cfac
+
+COCOAPODS: 1.3.1

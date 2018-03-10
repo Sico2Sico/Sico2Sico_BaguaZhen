@@ -1,0 +1,6 @@
+framework module AiiBlink {
+  umbrella header "AiiBlink-umbrella.h"
+
+  export *
+  module * { export * }
+}
