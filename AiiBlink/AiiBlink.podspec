@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'AiiBlink/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'AiiBlink' => ['AiiBlink/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'AiiBlink' => ['AiiBlink/Assets/**/*.xcassets','AiiBlink/Assets/**/*.json']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

@@ -7,14 +7,16 @@
 
 import UIKit
 
-class AiiBinkView: UIView {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+public extension Bundle {
+    public static func blinkClass() -> Bundle{
+        return Bundle(for:AiiBlinkClass.self)
     }
-    */
 
+    @objc public class func blinkClassResourceBundle() -> Bundle{
+        let uiBundle = self.blinkClass()
+        let url = uiBundle.url(forResource:"AiiBlink",withExtension: "bundle")!
+        return Bundle(url:url)!
+    }
 }
+
+private class AiiBlinkClass {}

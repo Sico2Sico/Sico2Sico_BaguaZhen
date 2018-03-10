@@ -18,5 +18,11 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "AiiBlink/Classes/**/*"
+  "source_files": "AiiBlink/Classes/**/*",
+  "resource_bundles": {
+    "AiiBlink": [
+      "AiiBlink/Assets/**/*.xcassets",
+      "AiiBlink/Assets/**/*.json"
+    ]
+  }
 }

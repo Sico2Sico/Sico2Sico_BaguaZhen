@@ -57,7 +57,8 @@ public class OctagonRootView: OctagonView {
 
         // 添加大圆
         bigOctagonView = OctagonView(frame: CGRect(x:0, y: 0,
-                                                       width:width*CGFloat(1.0 - bigScale), height:width*CGFloat(1.0 - bigScale)))
+                                                       width:width*CGFloat(1.0 - bigScale),
+                                                       height:width*CGFloat(1.0 - bigScale)))
         bigOctagonView.center = CGPoint(x:width*0.5, y: width*0.5)
         addSubview(bigOctagonView)
 
@@ -65,7 +66,8 @@ public class OctagonRootView: OctagonView {
 
         // 添加点击中心线圆
         midOctagonView = OctagonView(frame: CGRect(x:0, y: 0,
-                                                       width:width*CGFloat(1.0 - midScale), height:width*CGFloat(1.0 - midScale)))
+                                                       width:width*CGFloat(1.0 - midScale),
+                                                       height:width*CGFloat(1.0 - midScale)))
         midOctagonView.center = bigOctagonView.center
         addSubview(midOctagonView)
 

@@ -24,7 +24,7 @@ public class OctagonView: UIView {
     public override init(frame: CGRect) {
         super.init(frame: frame)
         width = self.bounds.width
-
+    
         // 获取八边形的点数据集合
         getOctagonArrayData()
 
